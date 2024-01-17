@@ -1,0 +1,100 @@
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background-color: #db1919;
+    color: #b9b7b7;
+  }
+  
+  .w3-sidebar {
+    width: 120px;
+    background: #3b2d2d;
+  }
+  
+  #main {
+    margin-left: 120px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0;
+    }
+  }
+  
+  .w3-sidebar .w3-bar-item {
+    color: #fff;
+  }
+  
+  .w3-top {
+    background-color: #976666;
+  }
+  
+  header {
+    background-color: #4d3131;
+    color: #fff;
+    padding: 32px;
+    text-align: center;
+  }
+  
+  #w3-about {
+    text-align: justify;
+  }
+  
+  .w3-dark-grey, .w3-light-grey {
+    background-color: #962020;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .w3-section {
+    margin: 16px 0;
+  }
+  
+  .w3-ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .w3-left {
+    float: left;
+    margin-right: 16px;
+  }
+  
+  .w3-row-padding img {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  
+  .w3-input, .w3-button {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 64px;
+    text-align: center;
+  }
+  
+  footer i {
+    margin: 0 8px;
+    color: #fff;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    header {
+      padding: 16px;
+    }
+  
+    footer {
+      padding: 32px;
+    }
+  }
+  
